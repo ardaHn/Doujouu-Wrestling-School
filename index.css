@@ -1,0 +1,123 @@
+body {
+    background-color: whitesmoke;
+}
+
+/* HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER  */
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left:1.4rem ;
+    margin-right:1.4rem ;
+    border-bottom: 0.1rem black solid;
+    height: 4.5rem;
+}
+
+.nav-container h1 {
+    font-family: 'Gruppo', sans-serif;
+    font-size: 1.7rem;
+}
+
+
+.nav-container a {
+    text-decoration: none;
+    color: black;
+    border: 0.1rem solid transparent
+}
+
+.nav-container a:hover {
+    border: 0.1rem solid black;
+    padding: 1rem;
+    margin: -1rem;
+}
+
+/* MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN */
+
+.staff {
+    font-family: 'Gruppo', sans-serif;
+}
+
+.staff-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.staff1 {
+    padding: 1rem;
+    width: 30rem;
+}
+.staff2 {
+    width: 30rem;
+    padding: 1rem;
+}
+.staff3 {
+    width: 30rem;
+    padding: 1rem;
+}
+
+.staff1 img {
+    height: 16rem;
+    width: 16rem;
+    border-radius: 50%;
+    border: 1px black solid;
+}
+.staff2 img {
+    height: 16rem;
+    width: 16rem;
+    border-radius: 50%;
+    border: 1px black solid;
+}
+.staff3 img {
+    height: 16rem;
+    width: 16rem;
+    border-radius: 50%;
+    border: 1px black solid;
+}
+
+.di{
+    width: 287.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article1 img {
+    height: 30rem;
+    width: 30rem;
+    border-radius: 3rem;
+}
+
+.bulk-container {
+    margin: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.article2 {
+    width: 37rem;
+    margin-left: 10rem;
+}
+
+.article3 img {
+    height: 30rem;
+    width: 30rem;
+}
+
+.bulk-container2 {
+    margin: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.bulk-container2 img {
+    height: 30rem;
+    width: 30rem;
+    border-radius: 3rem;
+}
+
+.article4 {
+    width: 37rem;
+    margin-left: 10rem;
+}
